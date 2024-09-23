@@ -25,12 +25,13 @@
         }
         p {
             margin-bottom: 1em;
+            width: 14cm; /* Set width for the block of text */
         }
         .audio-container {
             position: fixed; /* Position the audio player */
-            right: 20px; /* Adjust right position */
+            right: 10px; /* Adjust right position */
             top: 20px; /* Adjust top position */
-            background: #FFC0CB; /* Pink background for audio bubble */
+            background: #A7C6ED; /* Soft blue for audio bubble */
             padding: 10px; /* Padding */
             border-radius: 5px; /* Rounded corners */
             box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Shadow */
@@ -39,24 +40,25 @@
             width: 200px; /* Set width for the bubble */
         }
         .audio-container img {
-            width: 70px; /* Increased width of cover art */
+            width: 70px; /* Cover art width */
             height: auto; /* Maintain aspect ratio */
             margin-right: 10px; /* Space between image and audio */
         }
         .listen-text {
-            font-family: 'Pacifico', cursive; /* Curly, girly font for the text */
+            font-family: 'Dancing Script', cursive; /* Cursive, girly font for the text */
             margin: 0; /* Remove default margin */
+            font-size: 1.2em; /* Adjust font size if needed */
         }
     </style>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> <!-- Google Font -->
 </head>
 <body>
     <h1>Liana</h1>
     <p><em>Tuesday 27 August 2024</em></p>
-    <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/liana%20on%20grass.jpeg" alt="Liana on Grass" style="max-width: 100%; height: auto;">
+    <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/liana%20on%20grass.jpeg" alt="Liana on Grass" style="max-width: 10cm; height: auto;"> <!-- Set image width to 10cm -->
     
     <div class="audio-container">
-        <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/songart.jpg" alt="Song Cover Art"> <!-- Added cover art -->
+        <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/songart.jpg" alt="Song Cover Art" style="width: 70px; height: auto;"> <!-- Cover art -->
         <div>
             <p class="listen-text">Listen to me! While you read.</p>
             <audio controls>
