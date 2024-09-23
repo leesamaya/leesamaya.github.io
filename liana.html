@@ -18,6 +18,7 @@
             max-width: 100%;
             height: auto;
             margin-bottom: 20px;
+            width: 14cm; /* Set Liana's image width to 14 cm */
         }
         h1 {
             color: #4a4a4a;
@@ -25,13 +26,13 @@
         }
         p {
             margin-bottom: 1em;
-            width: 14cm; /* Set width for the block of text */
+            max-width: calc(100% - 5cm); /* Set max width for text, leaving 5 cm from the right */
         }
         .audio-container {
             position: fixed; /* Position the audio player */
-            right: 10px; /* Adjust right position */
-            top: 20px; /* Adjust top position */
-            background: #A7C6ED; /* Soft blue for audio bubble */
+            left: 10px; /* Move to the left */
+            top: 70px; /* Adjust top position */
+            background: #add8e6; /* Light blue background for audio bubble */
             padding: 10px; /* Padding */
             border-radius: 5px; /* Rounded corners */
             box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Shadow */
@@ -40,14 +41,13 @@
             width: 200px; /* Set width for the bubble */
         }
         .audio-container img {
-            width: 70px; /* Cover art width */
+            width: 70px; /* Increased width of cover art */
             height: auto; /* Maintain aspect ratio */
             margin-right: 10px; /* Space between image and audio */
         }
         .listen-text {
-            font-family: 'Dancing Script', cursive; /* Cursive, girly font for the text */
+            font-family: 'Dancing Script', cursive; /* Formal, girly cursive font */
             margin: 0; /* Remove default margin */
-            font-size: 1.2em; /* Adjust font size if needed */
         }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> <!-- Google Font -->
@@ -55,10 +55,10 @@
 <body>
     <h1>Liana</h1>
     <p><em>Tuesday 27 August 2024</em></p>
-    <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/liana%20on%20grass.jpeg" alt="Liana on Grass" style="max-width: 10cm; height: auto;"> <!-- Set image width to 10cm -->
-    
+    <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/liana%20on%20grass.jpeg" alt="Liana on Grass">
+
     <div class="audio-container">
-        <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/songart.jpg" alt="Song Cover Art" style="width: 70px; height: auto;"> <!-- Cover art -->
+        <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/songart.jpg" alt="Song Cover Art">
         <div>
             <p class="listen-text">Listen to me! While you read.</p>
             <audio controls>
@@ -80,7 +80,7 @@
     </ul>
     <p>Happy birthday Liana. I think you’re quite a character, and an even better friend.</p>
 
-    <p>If you’d like to collaborate with <a href="https://www.instagram.com/lianalottiekelemen/" target="_blank">Liana</a> for modeling or creative work, here is her Instagram.</p>
+    <p>If you’d like to collaborate with <a href="https://www.instagram.com/lianalottiekelemen/" target="_blank">Instagram</a> for modeling or creative work, here is her profile.</p>
 
     <a href="index.html">Back to Home</a> <!-- Link back to your main page -->
 </body>
