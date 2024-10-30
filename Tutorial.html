@@ -15,6 +15,7 @@
             padding: 20px;
             line-height: 1.6;
             position: relative; /* Allows positioning of the audio player */
+            max-width: 13cm; /* Set max width for text */
         }
 
         /* Title Styling */
@@ -24,6 +25,12 @@
             color: #C71585; /* dark hot pink */
             text-align: center;
             margin-top: 0;
+        }
+
+        /* Introduction Styling */
+        .intro {
+            margin-bottom: 20px; /* Space below the intro */
+            text-align: center;
         }
 
         /* Image Centering */
@@ -42,6 +49,7 @@
         p, li {
             font-family: "Times New Roman", Times, serif;
             font-size: 12pt; /* Updated font size */
+            margin: 0 0 10px 0; /* Space between paragraphs */
         }
 
         /* Link Styling */
@@ -60,47 +68,68 @@
             margin-bottom: 10px;
         }
 
-        /* Heart bubble styling for album cover */
+        /* Heart bubble styling for audio container */
         .heart {
             position: absolute; /* Position it in the right corner */
             top: 20px; /* Adjust vertical position */
             right: 20px; /* Adjust horizontal position */
-            background-color: #fff;
+            background-color: #ffcccb; /* light pink */
             border-radius: 50%; /* Make it circular */
             padding: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-direction: column; /* Stack contents vertically */
+            width: 100px; /* Set width */
+            height: 100px; /* Set height */
+            position: relative; /* Allows child positioning */
         }
 
         /* Album cover image styling */
         .heart img {
-            width: 50px; /* Adjust size as needed */
+            width: 40px; /* Adjust size as needed */
             height: auto;
             border-radius: 50%; /* Make the image circular */
+            margin-bottom: 5px; /* Space below the image */
         }
 
         /* Audio Player Styling */
         audio {
             display: none; /* Hide the default audio controls */
         }
+
+        /* Pause button styling */
+        .pause-button {
+            background-color: #C71585; /* dark hot pink */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+            position: absolute;
+            bottom: 5px; /* Position at the bottom */
+        }
     </style>
 </head>
 <body>
     <h1>Tutorial of a Normal Girl: How To Ask A Boy Out</h1>
+
+    <div class="intro">
+        <p>Are you a nice, normal girl? Are you failing to summon the innocent boy you are madly in love with? Are you wondering what you are doing wrong, in the big, mad, serious world? Worry no more. Get your dream boy with these 5 simple steps.</p>
+    </div>
 
     <div class="image-container">
         <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/river" alt="River Scene" width="500">
     </div>
 
     <div class="heart">
-        <span>Trois Gymnopédies (First Movement)</span>
-        <img src="https://via.placeholder.com/50" alt="Album Cover"> <!-- Replace with your album cover image URL -->
-        <audio controls autoplay>
+        <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/songpic(first%20movement)" alt="Album Cover"> <!-- Replace with your album cover image URL -->
+        <audio id="audio" controls autoplay>
             <source src="https://github.com/leesamaya/leesamaya.github.io/raw/main/Trois%20Gymnopedies%20(First%20Movement)%20%5B%20ezmp3.cc%20%5D.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
+        <button class="pause-button" onclick="toggleAudio()">Pause</button>
     </div>
 
     <ol>
@@ -123,5 +152,18 @@
         <em>*I don’t think this is a good idea - But brain, she’s so cute, funny, smart and sexy - how could I miss this - She could murder you - And?*</em><br>
         And so on. He’ll say yes. How could he not? You’re a catch. Plus, the Romantic era’s influence from the late 18th century is still alive and well in our collective psyche. We search for meaning beyond logic. Sometimes that means spending a night skipping rocks by the river with a very nice, normal girl.
     </ol>
+
+    <script>
+        function toggleAudio() {
+            const audio = document.getElementById('audio');
+            if (audio.paused) {
+                audio.play();
+                document.querySelector('.pause-button').innerText = 'Pause';
+            } else {
+                audio.pause();
+                document.querySelector('.pause-button').innerText = 'Play';
+            }
+        }
+    </script>
 </body>
 </html>
