@@ -9,11 +9,12 @@
         body {
             background-color: #cacb8b; /* light green */
             font-family: "Times New Roman", Times, serif;
-            font-size: 13px;
+            font-size: 12pt; /* Updated font size */
             color: #333;
             margin: 0;
             padding: 20px;
             line-height: 1.6;
+            position: relative; /* Allows positioning of the audio player */
         }
 
         /* Title Styling */
@@ -23,7 +24,12 @@
             color: #C71585; /* dark hot pink */
             text-align: center;
             margin-top: 0;
-           
+        }
+
+        /* Image Centering */
+        .image-container {
+            text-align: center; /* Center the image */
+            margin: 20px 0; /* Add some margin */
         }
 
         /* Step Headings Styling */
@@ -35,7 +41,7 @@
         /* Main Text Styling */
         p, li {
             font-family: "Times New Roman", Times, serif;
-            font-size: 11px;
+            font-size: 12pt; /* Updated font size */
         }
 
         /* Link Styling */
@@ -53,13 +59,49 @@
         li {
             margin-bottom: 10px;
         }
+
+        /* Heart bubble styling for album cover */
+        .heart {
+            position: absolute; /* Position it in the right corner */
+            top: 20px; /* Adjust vertical position */
+            right: 20px; /* Adjust horizontal position */
+            background-color: #fff;
+            border-radius: 50%; /* Make it circular */
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Album cover image styling */
+        .heart img {
+            width: 50px; /* Adjust size as needed */
+            height: auto;
+            border-radius: 50%; /* Make the image circular */
+        }
+
+        /* Audio Player Styling */
+        audio {
+            display: none; /* Hide the default audio controls */
+        }
     </style>
 </head>
 <body>
     <h1>Tutorial of a Normal Girl: How To Ask A Boy Out</h1>
 
-<img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/river" alt="River Scene" width="500">
-<img src="your-image-url.jpg"style="width: 11cm;">
+    <div class="image-container">
+        <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/river" alt="River Scene" width="500">
+    </div>
+
+    <div class="heart">
+        <span>Trois Gymnopédies (First Movement)</span>
+        <img src="https://via.placeholder.com/50" alt="Album Cover"> <!-- Replace with your album cover image URL -->
+        <audio controls autoplay>
+            <source src="https://github.com/leesamaya/leesamaya.github.io/raw/main/Trois%20Gymnopedies%20(First%20Movement)%20%5B%20ezmp3.cc%20%5D.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
 
     <ol>
         <li><strong>Find your victim.</strong><br>
@@ -80,5 +122,6 @@
         Now. There is a 67% chance he will say yes. The boy may look puzzled at first, and this is normal. You will witness internal battle flash across his face, one between his heart and his brain. It sounds something like this:<br>
         <em>*I don’t think this is a good idea - But brain, she’s so cute, funny, smart and sexy - how could I miss this - She could murder you - And?*</em><br>
         And so on. He’ll say yes. How could he not? You’re a catch. Plus, the Romantic era’s influence from the late 18th century is still alive and well in our collective psyche. We search for meaning beyond logic. Sometimes that means spending a night skipping rocks by the river with a very nice, normal girl.
+    </ol>
 </body>
 </html>
