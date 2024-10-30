@@ -23,13 +23,16 @@
             font-size: 2em;
             color: #C71585; /* dark hot pink */
             text-align: center;
-            margin-top: 5;
+            margin-top: 0;
         }
 
         /* Introduction Styling */
         .intro {
             margin-bottom: 20px; /* Space below the intro */
             text-align: center;
+            max-width: 600px; /* Set width same as title */
+            margin-left: auto;
+            margin-right: auto; /* Center the intro */
         }
 
         /* Image Centering */
@@ -67,38 +70,20 @@
             margin-bottom: 10px;
         }
 
-        /* Heart bubble styling for audio container */
-        .heart {
-            background-color: #dadcc5; /* grey */
-            border-radius: 50%; /* Make it circular */
-            padding: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-           
+        /* Audio container styling */
+        .audio-container {
+            position: absolute; /* Position in the right corner */
+            top: 20px; /* Adjust vertical position */
+            right: 20px; /* Adjust horizontal position */
+            text-align: center; /* Center text inside */
         }
 
         /* Album cover image styling */
-        .heart img {
-            width: 60px; /* Increase album cover size */
+        .audio-container img {
+            width: 80px; /* Size for album cover */
             height: auto;
-            border-radius: 50%; /* Make the image circular */
             margin-bottom: 5px; /* Space below the image */
-        }
-
-        /* Audio Player Styling */
-        audio {
-            display: none; /* Hide the default audio controls */
-        }
-
-        /* Pause button styling */
-        .pause-button {
-            background-color: #C71585; /* dark hot pink */
-            color: white;
-            border: none;
-            border-radius: 5px;
-            padding: 5px 10px;
-            cursor: pointer;
-            position: absolute;
-            bottom: 5px; /* Position at the bottom */
+            cursor: pointer; /* Change cursor to pointer */
         }
 
         /* Song title styling */
@@ -106,6 +91,7 @@
             font-weight: bold;
             margin: 5px 0; /* Margin for spacing */
             font-size: 10pt; /* Adjust font size */
+            cursor: pointer; /* Change cursor to pointer */
         }
     </style>
 </head>
@@ -120,14 +106,13 @@
         <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/river" alt="River Scene" width="500">
     </div>
 
-    <div class="heart">
-        <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/songpic(first%20movement)" alt="Album Cover"> <!-- Replace with your album cover image URL -->
-        <div class="song-title">Trois Gymnopedies (First Movement) - Gary Numan</div>
-        <audio id="audio" controls autoplay>
+    <div class="audio-container">
+        <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/songpic(first%20movement)" alt="Album Cover" onclick="toggleAudio()"> <!-- Replace with your album cover image URL -->
+        <div class="song-title" onclick="toggleAudio()">Trois Gymnopedies (First Movement) - Gary Numan</div>
+        <audio id="audio" controls autoplay style="display: none;">
             <source src="https://github.com/leesamaya/leesamaya.github.io/raw/main/Trois%20Gymnopedies%20(First%20Movement)%20%5B%20ezmp3.cc%20%5D.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
-        <button class="pause-button" onclick="toggleAudio()">Pause</button>
     </div>
 
     <ol>
@@ -156,10 +141,10 @@
             const audio = document.getElementById('audio');
             if (audio.paused) {
                 audio.play();
-                document.querySelector('.pause-button').innerText = 'Pause';
+                document.querySelector('.song-title').innerText = 'Trois Gymnopedies (First Movement) - Gary Numan'; // Reset title text
             } else {
                 audio.pause();
-                document.querySelector('.pause-button').innerText = 'Play';
+                document.querySelector('.song-title').innerText = 'Play: Trois Gymnopedies (First Movement) - Gary Numan'; // Change text when paused
             }
         }
     </script>
