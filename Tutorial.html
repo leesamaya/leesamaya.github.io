@@ -15,7 +15,6 @@
             padding: 20px;
             line-height: 1.6;
             position: relative; /* Allows positioning of the audio player */
-            max-width: 13cm; /* Set max width for text */
         }
 
         /* Title Styling */
@@ -70,9 +69,6 @@
 
         /* Heart bubble styling for audio container */
         .heart {
-            position: absolute; /* Position it in the right corner */
-            top: 20px; /* Adjust vertical position */
-            right: 20px; /* Adjust horizontal position */
             background-color: #ffcccb; /* light pink */
             border-radius: 50%; /* Make it circular */
             padding: 10px;
@@ -81,14 +77,17 @@
             align-items: center;
             justify-content: center;
             flex-direction: column; /* Stack contents vertically */
-            width: 100px; /* Set width */
-            height: 100px; /* Set height */
-            position: relative; /* Allows child positioning */
+            width: 120px; /* Set width for the heart */
+            height: 120px; /* Set height for the heart */
+            position: absolute; /* Position in the right corner */
+            top: 20px; /* Adjust vertical position */
+            right: 20px; /* Adjust horizontal position */
+            text-align: center; /* Center text inside the heart */
         }
 
         /* Album cover image styling */
         .heart img {
-            width: 40px; /* Adjust size as needed */
+            width: 60px; /* Increase album cover size */
             height: auto;
             border-radius: 50%; /* Make the image circular */
             margin-bottom: 5px; /* Space below the image */
@@ -110,6 +109,13 @@
             position: absolute;
             bottom: 5px; /* Position at the bottom */
         }
+
+        /* Song title styling */
+        .song-title {
+            font-weight: bold;
+            margin: 5px 0; /* Margin for spacing */
+            font-size: 10pt; /* Adjust font size */
+        }
     </style>
 </head>
 <body>
@@ -125,6 +131,7 @@
 
     <div class="heart">
         <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/songpic(first%20movement)" alt="Album Cover"> <!-- Replace with your album cover image URL -->
+        <div class="song-title">Trois Gymnopedies (First Movement) - Gary Numan</div>
         <audio id="audio" controls autoplay>
             <source src="https://github.com/leesamaya/leesamaya.github.io/raw/main/Trois%20Gymnopedies%20(First%20Movement)%20%5B%20ezmp3.cc%20%5D.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
