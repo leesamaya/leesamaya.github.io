@@ -7,7 +7,7 @@
     <style>
         /* Background and Body Styles */
         body {
-            background-color: #b4c886; /* light olive green */
+            background-color: #cacb8b; /* light green */
             font-family: "Times New Roman", Times, serif;
             font-size: 11px;
             color: #333;
@@ -58,6 +58,7 @@
     <h1>Tutorial of a Normal Girl: How To Ask A Boy Out</h1>
 
 <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/river" alt="River Scene" width="500">
+<img src="your-image-url.jpg" alt="Description of Image" width="11cm">
 
 
     <ol>
