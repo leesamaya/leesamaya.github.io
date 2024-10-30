@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial of a Normal Girl: How To Ask A Boy Out</title>
+    <style>
+        /* Background and Body Styles */
+        body {
+            background-color: #b4c886; /* light olive green */
+            font-family: "Times New Roman", Times, serif;
+            font-size: 11px;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        /* Title Styling */
+        h1 {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            font-size: 24px;
+            color: #C71585; /* dark hot pink */
+            text-align: center;
+            margin-top: 0;
+        }
+
+        /* Step Headings Styling */
+        strong {
+            color: #C71585; /* dark hot pink */
+            text-decoration: underline;
+        }
+
+        /* Main Text Styling */
+        p, li {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 11px;
+        }
+
+        /* Link Styling */
+        a {
+            color: #0000EE;
+            text-decoration: underline;
+        }
+
+        /* Link Hover Styling */
+        a:hover {
+            font-style: italic;
+        }
+
+        /* List Item Styling */
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tutorial of a Normal Girl: How To Ask A Boy Out</h1>
+
+    <ol>
+        <li><strong>Find your victim.</strong><br>
+        Did you find him? Ok, good. Next:</li>
+
+        <li><strong>Look at them.</strong><br>
+        Where is he? Lost him in the crowd again? Oh! There he is! Ah, he’s so very pretty.</li>
+
+        <li><strong>FUCK! He caught me staring!</strong><br>
+        This is where you are tested. You must fight every single atom in your body urging you to break eye contact. I dare you to hold it. There is a 67% chance his tummy will flip (depending on how good you look that day). The other 33% is for the nonchalant men. We do not want them.</li>
+
+        <li><strong>Disappear mysteriously.</strong><br>
+        It’s a hard pill to swallow, but sometimes, you are better as a <a href="https://www.sciencedirect.com/science/article/abs/pii/S1740144519302487" target="_blank">concept</a>.</li>
+
+        <li><strong>Just kidding.</strong><br>
+        Walk up to him and say this (word for word):<br>
+        <blockquote>Hello. My name is ________ (*your name*). I’m going to skip rocks by the river tonight. Do you wanna come?</blockquote>
+        Now. There is a 67% chance he will say yes. The boy may look puzzled at first, and this is normal. You will see the internal battle going on inside his mind flash across his face, one between his heart and his brain. It sounds something like this:<br>
+        <em>*I don’t think this is a good idea - But brain, she’s so cute, funny, smart and sexy - how could I miss this - She could murder you - And?*</em><br>
+        And so on. He’ll say yes. How could he not? I’m a catch - I mean, you’re a catch. Plus, the Romantic era’s influence from the late 18th century is still alive and well today in everyone’s brains. Or hearts? We search for meaning beyond logic. Sometimes that means spending a night skipping rocks by the river with a very nice, normal girl.</li>
+    </ol>
+</body>
+</html>
