@@ -6,77 +6,107 @@
     <title>Lost Bag Poem</title>
     <style>
         body {
-            font-family: "Garamond", serif;
+            background-color: #d49dbd;
+            color: #000;
+            font-family: 'Gill Sans Std Light', sans-serif;
             font-size: 12px;
-            color: #333;
-            background-color: #a8b5a6; /* Dusty green */
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
-            height: 100vh;
+            justify-content: start;
         }
-        .container {
-            max-width: 600px;
-            padding: 20px;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        .audio-container {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            text-align: center;
+        }
+        .audio-container img {
+            width: 100px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .audio-container audio {
+            margin-top: 5px;
+            display: block;
         }
         .title {
-            font-size: 36px;
+            margin: 40px 0;
+            font-size: 18px;
             font-weight: bold;
-            text-align: center;
-            margin-bottom: 20px;
-            color: #2f4f4f; /* Dark slate gray for contrast */
+        }
+        .image {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         .poem {
-            white-space: pre-line; /* Preserves line breaks */
-            line-height: 1.6;
+            margin: 20px;
+            text-align: center;
+            white-space: pre-wrap;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="title">Lost Bag Poem</div>
-        <div class="poem">
-The train exhales me and
+    <!-- Audio Player -->
+    <div class="audio-container">
+        <img src="https://github.com/leesamaya/leesamaya.github.io/raw/main/Album%20art%20poem.jpg" alt="Album Cover">
+        <audio controls autoplay>
+            <source src="https://github.com/leesamaya/leesamaya.github.io/raw/main/Uccidere%20in%20silenzio%203%20%5B%20ezmp3.cc%20%5D.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <div>Uccidere in silenzio 3</div>
+    </div>
 
-a huff of bodies spill out the doors.
+    <!-- Poem Title -->
+    <div class="title">Lost Bag Poem</div>
 
-I climb the stairs in twos,
-reach for my bag
-but grasp only air.
+    <!-- Image -->
+    <div class="image">
+        <img src="https://github.com/leesamaya/leesamaya.github.io/raw/main/%F0%9F%91%9C%20Handbag%20Emoji%202.jpeg" alt="Handbag Emoji" style="width: 11cm;">
+    </div>
 
-Shit!
+    <!-- Poem -->
+    <div class="poem">
+        The train exhales me<br>
+        a huff of bodies spill out the doors<br><br>
 
-Lost bag.
+        I climb the stairs in twos<br>
+        reach for my bag<br>
+        but grasp only air<br><br>
 
-I run, but the train outruns me.
-So I stop.
+        Shit!<br>
+        Lost bag<br>
+        I run, but the train outruns me<br>
+        So I stop<br>
+        I weep<br><br>
 
-I am a child again.
-A stupid girl who loses things.
+        I am a child again.<br>
+        I must be supervised<br>
+        Tie a string around my wrist <br>
+        yank me back<br><br>
 
-Supervised, supervised—
-I must be supervised.
-Tie a string around my wrist,
-yank me back.
+        Go away! Go away!<br>
+        I say to the normal adult who comes near<br>
+        You mustn’t love me!<br><br>
 
-Go away! Go away!
-I say to the normal adult who comes near.
-You mustn’t love me.
+        I lose things <br>
+        miss things<br>
+        and I’m embarrassed because<br>
+        I’m not a real person yet.<br><br>
 
-I lose things and miss things,
-and I’m embarrassed because
-I’m not a real person yet.
+        I perform this plea dramatically <br>
+        for no one in particular<br><br>
 
-And in this fantasy they don’t move at all.
-They only stand and look at me plainly and say,
-C’mon. Let’s find that bag.
-        </div>
+        And in this fantasy <br>
+        Mr. No One doesn’t move at all<br>
+        He only stands <br>
+        looks at me, and says<br>
+        C’mon!<br>
+        Let’s find that bag.
     </div>
 </body>
 </html>
-
