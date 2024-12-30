@@ -71,38 +71,13 @@
 
     <!-- Title -->
     <div class="title">Chasing Things</div>
+<p>An ode to wanting.</P>
 
-    <!-- Introduction -->
-    <div class="intro">
-     We are always wanting, aren’t we? Want pulls us out of sleep. I tell myself I am a conqueror, that the world is mine to take. I am, after all, <i>Young! Hungry!</i> 
-With so much ahead of me it drives me mad.<p>
-
-Once, I told a boy I was hungry. Not for food. He worked at a startup I wanted to be at. He flicked his pencil with his index finger and thumb, 
-the tip stopping at my elbow. Tap. Tap. Tap. Not accidental. No? I don’t know. Tap. Tap. Tap. Did he know he was doing it? Did he mean to? 
-He kept talking, tone easy, polite. But in his eyes, something else: a private joke, a small flicker of something withheld, something private. 
-The tapping continues.<p>
-
-It was a secret language, I thought. Or an equation. One tap = *hello, are you there?* Steady like a metronome and impossibly deliberate. 
-We stood side by side. I couldn’t see his face — only the normality of our conversation, while I tried to make sense of the tapping. 
-I wondered if I imagined it. Or if, in his quiet way, he was signaling something I couldn’t yet decode.<p>
-
-Suddenly, he was no longer just a boy anymore. He became a version of me I hadn’t yet reached — someone with a plan, someone who knew what to do with themselves.
-
-I stood there, trying to meet his gaze when he looked my way, trying to be whatever he might have seen in me. Which was real? The person he thought I was? Or the one 
-I feared I might be? Or maybe something else — a <i>not yet.</i>Neither doomed nor formed.<p>
-
-Because, truthfully, I wasn’t who I said I was. No conqueror. I like my coffee iced and sweet. I watch movies where nothing much happens. I waste my hours standing 
-under trees, staring at them like I’ve never seen one before. Maybe that’s laziness. Or ambition too large to bear the weight of a <i>not yet.</i>Or maybe it’s just the excuse I tell myself.<p>
-
-That night, I left him there - the boy, the tapping, the look in his eyes. I walked away, but the wanting followed. It always does.
-
-    <!-- Image -->
+   <!-- Image -->
 <div class="image">
     <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/extra%20images/car%20window.jpg" alt="window pic" style="width: 11cm;">
 </div>
-
-
-    <!-- Playlist -->
+   <!-- Playlist -->
     <div class="poem">
         Fortress - Pinback<br>
         Take a Bite - Beabadoobee<br>
@@ -115,6 +90,33 @@ That night, I left him there - the boy, the tapping, the look in his eyes. I wal
         Tomorrow Tomorrow - Elliot Smith<br>
         NoWhere Near - Yo La Tango
     </div>
+
+    <!-- Introduction -->
+    <div class="intro">
+     We are always wanting, aren’t we? Want pulls us out of sleep. I tell myself I am a conqueror, that the world is mine to take. I am, after all, <i>Young! Hungry!</i> 
+With so much ahead of me it drives me mad.<p>
+
+Once, I told a boy I was hungry. Not for food. He worked at a startup I wanted to be at. He flicked his pencil with his index finger and thumb, 
+the tip stopping at my elbow. Tap. Tap. Tap. Not accidental. No. No? I don’t know. Tap. Tap. Tap. Did he know he was doing it? Did he mean to? 
+He kept talking, tone easy, polite. But in his eyes, something else: a private joke, a small flicker of something withheld.<p>
+
+A secret language, I thought. Or an equation. One tap = <i>hello, are you there?</i> Steady like a metronome and impossibly deliberate. 
+We stood side by side. I couldn’t see his face — only the words exchanged, so ordinary, while I tried to make sense of the tapping. 
+I wondered if I imagined it. Or if, in his precise way, he was coding a signal I couldn’t yet translate.<p>
+
+Suddenly, he was no longer just a boy anymore. He became a version of me I hadn’t yet reached — someone with a plan, someone who knew what to do with themselves.
+
+I stood there, trying to meet his gaze when he looked my way, trying to be whatever he might have seen in me. Which was real? The person he thought I was? Or the one 
+I feared I might be? Or maybe something else — and this is more hopeful - a <i>not yet.</i> Neither doomed nor formed.<p>
+
+Because, truthfully, I wasn’t who I said I was. No conqueror. I like my coffee iced and sweet. I watch movies where nothing much happens. I waste my hours standing 
+under trees, staring at them like I’ve never seen one before. Maybe that’s laziness. Or ambition too large to bear the weight of a <i>not yet.</i> Or maybe it’s just the excuse I tell myself.<p>
+
+I had left him there that night - the boy, the tapping, the look in his eyes. I walked away, but the wanting followed. It always does.
+
+ 
+
+
 
     <p>
         <a href="https://leesamaya.github.io/">Wanna Go Back Home? Me too.</a>
