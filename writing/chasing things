@@ -69,92 +69,65 @@
         <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/extra%20images/car%20window.jpg" alt="window pic" style="width: 11cm;">
     </div>
 <div class="intro">
-<div class="heart-shape">
-  <p>We are always wanting, aren’t we? Want gets us out of bed. I tell myself I’m a conqueror, that the world is mine to take. I’m young, I’m hungry, and sometimes it feels like I’ve got so much ahead of me, it drives me crazy.</p>
-  <p>Once, I told a boy I was hungry. Not for food. He worked at a startup I wanted to work at. He tapped his pencil on my elbow, tap, tap tap. Too casually to be deliberate, but too steady to be accidental. Tap, tap, tap. Did he know? I wondered if he knew.</p>
-  <p>He kept talking. Friendly, polite. But his eyes told a different story - a glare, a suppressed smile. The pencil tapped.</p>
-  <p>And suddenly he wasn’t just a boy anymore. He was me in another world where I knew what to do with myself. Ambition without hesitation and, oh! Competence. He had a plan, and he believed in it.</p>
-  <p>I stood there, trying to match his gaze, trying to be what he might have seen in me.</p>
-  <p>But I wasn’t what I claimed to be. I’m no conqueror. I liked my coffee iced and sweet and got lost in movies where nothing happened. I wasted hours on nothing and stood still under trees, staring like I’d never seen them before.</p>
-  <p>I wonder if I’m lazy. Or if I’m so ambitious that I can’t bear the weight of not being enough, so I crumble under it.</p>
-  <p>I walked away, but I swear, I could still feel the tap tap tap on my left elbow.</p>
-</div>
-.heart-shape {
-  font-family: 'Arial', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  display: block;
-  width: 100%;
-  position: relative;
-  margin: 0 auto;
-  padding: 20px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Shaped Paragraph</title>
+    <style>
+        /* CSS goes here */
+        .heart {
+            position: relative;
+            width: 200px;
+            height: 180px;
+            background: #f00;
+            transform: rotate(-45deg);
+            margin: 50px;
+        }
 
-.heart-shape p {
-  position: relative;
-  margin: 0;
-  padding: 5px;
-}
+        .heart:before,
+        .heart:after {
+            content: '';
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background: #f00;
+            border-radius: 50%;
+        }
 
-.heart-shape p:nth-child(1) {
-  font-size: 18px;
-  margin-top: 10px;
-}
+        .heart:before {
+            left: 50px;
+            top: -75px;
+        }
 
-.heart-shape p:nth-child(2) {
-  font-size: 20px;
-}
+        .heart:after {
+            top: -75px;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="heart">
+        We are always wanting, aren’t we? Want gets us out of bed. I tell myself I’m a conqueror, that the world is mine to take. I’m young, I’m hungry, and sometimes it feels like I’ve got so much ahead of me, it drives me crazy.
 
-.heart-shape p:nth-child(3) {
-  font-size: 22px;
-}
+        Once, I told a boy I was hungry. Not for food. He worked at a startup I wanted to work at. He tapped his pencil on my elbow, tap, tap tap. Too casually to be deliberate, but too steady to be accidental. Tap, tap, tap. Did he know? I wondered if he knew.
 
-.heart-shape p:nth-child(4) {
-  font-size: 24px;
-}
+        He kept talking. Friendly, polite. But his eyes told a different story - a glare, a suppressed smile. The pencil tapped.
 
-.heart-shape p:nth-child(5) {
-  font-size: 22px;
-}
+        And suddenly he wasn’t just a boy anymore. He was me in another world where I knew what to do with myself. Ambition without hesitation and, oh! Competence. He had a plan, and he believed in it.
 
-.heart-shape p:nth-child(6) {
-  font-size: 20px;
-}
+        I stood there, trying to match his gaze, trying to be what he might have seen in me.
 
-.heart-shape p:nth-child(7) {
-  font-size: 18px;
-}
+        But I wasn’t what I claimed to be. I’m no conqueror. I liked my coffee iced and sweet and got lost in movies where nothing happened. I wasted hours on nothing and stood still under trees, staring like I’d never seen them before.
 
-.heart-shape p:nth-child(8) {
-  font-size: 16px;
-}
+        I wonder if I’m lazy. Or if I’m so ambitious that I can’t bear the weight of not being enough, so I crumble under it.
 
-.heart-shape:before {
-  content: '';
-  position: absolute;
-  top: -30px;
-  left: 50%;
-  margin-left: -50px;
-  width: 0;
-  height: 0;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-bottom: 30px solid red;
-}
+        I walked away, but I swear, I could still feel the tap tap tap on my left elbow.
+    </div>
+</body>
+</html>
 
-.heart-shape:after {
-  content: '';
-  position: absolute;
-  top: -60px;
-  left: 50%;
-  margin-left: -80px;
-  width: 160px;
-  height: 160px;
-  border-radius: 80px;
-  background-color: red;
-  z-index: -1;
-}
 
     <!-- playlist -->
     <div class="poem">
