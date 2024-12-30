@@ -9,7 +9,7 @@
             background-color: #9dc3d4;
             color: #000;
             font-family: 'Times New Roman', Times, serif;
-            font-size: 13px;
+            font-size: 16px;
             margin: 0;
             padding: 0;
             display: flex;
@@ -34,7 +34,7 @@
         }
         .title {
             margin: 40px 0;
-            font-size: 18px;
+            font-size: 24px;
             font-weight: bold;
         }
         .image {
@@ -42,6 +42,13 @@
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+        .intro {
+            width: 90%;
+            max-width: 1200px;
+            margin: 40px 0;
+            text-align: justify;
+            line-height: 1.6;
         }
         .poem {
             margin: 20px;
@@ -51,6 +58,7 @@
     </style>
 </head>
 <body>
+
     <!-- Audio Player -->
     <div class="audio-container">
         <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/extra%20images/fortress%20pic.jpg" alt="Album Cover">
@@ -64,16 +72,8 @@
     <!-- Title -->
     <div class="title">Chasing Things</div>
 
-    <!-- Image -->
-    <div class="image">
-        <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/extra%20images/car%20window.jpg" alt="window pic" style="width: 11cm;">
-    </div>
-<div class="intro">
-<!DOCTYPE html>
-
-</head>
-<body>
-    <div class="heart">
+    <!-- Introduction -->
+    <div class="intro">
         We are always wanting, aren’t we? Want gets us out of bed. I tell myself I’m a conqueror, that the world is mine to take. I’m young, I’m hungry, and sometimes it feels like I’ve got so much ahead of me, it drives me crazy.
 
         Once, I told a boy I was hungry. Not for food. He worked at a startup I wanted to work at. He tapped his pencil on my elbow, tap, tap tap. Too casually to be deliberate, but too steady to be accidental. Tap, tap, tap. Did he know? I wondered if he knew.
@@ -90,45 +90,30 @@
 
         I walked away, but I swear, I could still feel the tap tap tap on my left elbow.
     </div>
-</body>
-</html>
 
-
-    <!-- playlist -->
-    <div class="poem">
-
-Fortress - Pinback<br>
-
-Take a Bite - Beabadoobee<br>
-
-Autumn Sweater - Yo La Tango<br>
-
-This Is A Low - Blur<br>
-
-Weird Fishes/Arpeggi - Radiohead<br>
-
-Our Swords - Band of Horses<br>
-
-Black Swan - Thom Yorke<br>
-
-Jerk It Out - Caesars<br>
-
-Tomorrow Tomorrow - Elliot Smith<br>
-
-NoWhere Near - Yo La Tango
-
-    </div>
-
+    <!-- Image -->
+<div class="image">
+    <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/extra%20images/car%20window.jpg" alt="window pic" style="width: 11cm;">
 </div>
-</p>
-    <p>
 
 
-        <a href="https://leesamaya.github.io/">Wanna Go Back Home? Me too.</a> <!-- Link back to your main page -->
-
-
-    
-
+    <!-- Playlist -->
+    <div class="poem">
+        Fortress - Pinback<br>
+        Take a Bite - Beabadoobee<br>
+        Autumn Sweater - Yo La Tango<br>
+        This Is A Low - Blur<br>
+        Weird Fishes/Arpeggi - Radiohead<br>
+        Our Swords - Band of Horses<br>
+        Black Swan - Thom Yorke<br>
+        Jerk It Out - Caesars<br>
+        Tomorrow Tomorrow - Elliot Smith<br>
+        NoWhere Near - Yo La Tango
     </div>
+
+    <p>
+        <a href="https://leesamaya.github.io/">Wanna Go Back Home? Me too.</a>
+    </p>
+
 </body>
 </html>
