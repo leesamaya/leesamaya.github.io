@@ -49,12 +49,32 @@
             margin: 40px 0;
             text-align: justify;
             line-height: 1.6;
+            padding-right: 10%; /* Adds right padding to match left margin */
         }
         .poem {
             margin: 20px;
             text-align: center;
             white-space: pre-wrap;
         }
+
+        .songs {
+            text-align: center; /* Centers the song list */
+        }
+
+        .song-link {
+            text-decoration: none;
+            color: inherit;
+            display: inline-block;
+            margin-bottom: 30px; /* Increase line spacing between songs */
+        }
+
+
+            .song-link:hover {
+    font-style: italic; /* Makes the text italic on hover */
+    text-align: center; /* Center the content of the div */
+    color: #deab4e; /* Changes the color to yellow when hovered */
+}
+        
     </style>
 </head>
 <body>
@@ -71,34 +91,14 @@
 
     <!-- Title -->
     <div class="title">Chasing Things</div>
-<p>An ode to wanting</P>
+    <p>An ode to wanting</p>
 
-   <!-- Image -->
-<div class="image">
-    <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/extra%20images/car%20window.jpg" alt="window pic" style="width: 11cm;">
-</div>
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playlist</title>
-    <style>
-        .song-link {
-            text-decoration: none; /* Removes underline */
-            color: inherit; /* Inherits the current text color */
-             display: inline-block;  /* Make links block-level so we can add spacing */
-    margin-bottom: 15px;    /* Add space between each song */
-        }
+    <!-- Image -->
+    <div class="image">
+        <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/extra%20images/car%20window.jpg" alt="window pic" style="width: 11cm;">
+    </div>
 
-        .song-link:hover {
-            font-style: italic; /* Makes the text italic on hover */
-                text-align: center;     /* Center the content of the div */
-        }
-    </style>
-</head>
-<body>
-   <!-- Playlist -->
+    <!-- Playlist -->
     <div class="songs">
         <a href="https://open.spotify.com/track/2LtcQvCo1gFwEcCXDHjdYv?si=db3529a529dc46de" target="_blank" class="song-link">Fortress - Pinback</a><br>
         <a href="https://open.spotify.com/track/7ddVpLW467CLYffbPRQNmH?si=2a4c50b9b3634f91" target="_blank" class="song-link">Take a Bite - Beabadoobee</a><br>
@@ -110,40 +110,31 @@
         <a href="https://open.spotify.com/track/1bx7OUl2UmAnA5oZkm9If7?si=784c8d9c05ad4721" target="_blank" class="song-link">Jerk It Out - Caesars</a><br>
         <a href="https://open.spotify.com/track/3DtVxpN8kcB4qJO2KOxCij?si=7c76bfdb05844a2b" target="_blank" class="song-link">Tomorrow Tomorrow - Elliot Smith</a><br>
         <a href="https://open.spotify.com/track/5L2STOBiS00u7q4aLtRjKK?si=78bd4cc8e0b64332" target="_blank" class="song-link">Nowhere Near - Yo La Tengo</a><br>
-
-
-
-        
-</body>
-</html>
-
+    </div>
 
     <!-- Introduction -->
     <div class="intro">
-     We are always wanting, aren’t we? Want pulls us out of sleep. I tell myself I am a conqueror, that the world is mine to take. After all, I am <i>Young! Hungry!</i> 
-With so much ahead of me, it drives me mad.<p>
+        We are always wanting, aren’t we? Want pulls us out of sleep. I tell myself I am a conqueror, that the world is mine to take. After all, I am <i>Young! Hungry!</i>
+        With so much ahead of me, it drives me mad.<p>
 
-Once, I told a boy I was hungry. Not for food. He worked at a startup I wanted to be at. He flicked his pencil with his index and his thumb, tip stopping at my elbow. 
-Tap. Tap. Tap. Not accidental, no. No? I don’t know. Tap. Tap. Tap. Did he know he was doing it? Did he mean to? 
-He kept talking; polite, tone easy. But in his eyes, something else: a private joke, a flicker of something that wasn't for me to know. The tapping continues.<p>
+        Once, I told a boy I was hungry. Not for food. He worked at a startup I wanted to be at. He flicked his pencil with his index and his thumb, tip stopping at my elbow.
+        Tap. Tap. Tap. Not accidental, no. No? I don’t know. Tap. Tap. Tap. Did he know he was doing it? Did he mean to? 
+        He kept talking; polite, tone easy. But in his eyes, something else: a private joke, a flicker of something that wasn't for me to know. The tapping continues.<p>
 
-A secret language, I thought. Or, an equation: one tap = <i>hello, are you there?</i> Steady like a metronome and, ah, impossibly deliberate. 
-We stood side by side. I couldn’t see his face — only the words exchanged in conversation, so ordinary. 
-Did I imagine it? Or, in his quiet way, was he was coding a signal I couldn’t yet translate?<p>
+        A secret language, I thought. Or, an equation: one tap = <i>hello, are you there?</i> Steady like a metronome and, ah, impossibly deliberate.
+        We stood side by side. I couldn’t see his face — only the words exchanged in conversation, so ordinary. 
+        Did I imagine it? Or, in his quiet way, was he was coding a signal I couldn’t yet translate?<p>
 
-He was no longer a boy. He was something else - an alternate self, perhaps, from a life where I knew what I was doing and could, if I wanted to, set the world in motion. 
-    I met his gaze, cautiously, as though testing on the version of me he seemed to see. And then the question comes: Which was real? The self he conjured, whole and tidy? 
-    Or the one I feared I might be? But I know now, it was the wrong question to ask. Perhaps it is enough to remain incomplete, suspended in a state of not yet.
-     The relief of it: to be allowed the waiting.</p>
+        He was no longer a boy. He was something else - an alternate self, perhaps, from a life where I knew what I was doing and could, if I wanted to, set the world in motion.
+        I met his gaze, cautiously, as though testing on the version of me he seemed to see. And then the question comes: Which was real? The self he conjured, whole and tidy? 
+        Or the one I feared I might be? But I know now, it was the wrong question to ask. Perhaps it is enough to remain incomplete, suspended in a state of not yet.
+        The relief of it: to be allowed the waiting.</p>
     
-Because, truthfully, I wasn’t who I said I was. No conqueror. I like my coffee iced and sweet. I watch movies where nothing much happens. I sleep deeply and waste my time. Find me standing 
-under trees, staring at them like I’ve never seen one before. Maybe that’s laziness. Or ambition too large to bear the weight of a <i>not yet.</i> Or maybe it’s just the excuse I tell myself.<p>
+        Because, truthfully, I wasn’t who I said I was. No conqueror. I like my coffee iced and sweet. I watch movies where nothing much happens. I sleep deeply and waste my time. Find me standing 
+        under trees, staring at them like I’ve never seen one before. Maybe that’s laziness. Or ambition too large to bear the weight of a <i>not yet.</i> Or maybe it’s just the excuse I tell myself.<p>
 
-I had left him that night - the boy, the tapping, the look in his eyes. I walked away, but the wanting followed. It always does. </div>
-
- 
-
-
+        I had left him that night - the boy, the tapping, the look in his eyes. I walked away, but the wanting followed. It always does.
+    </div>
 
     <p>
         <a href="https://leesamaya.github.io/">Go Home, Loser.</a>
@@ -151,3 +142,4 @@ I had left him that night - the boy, the tapping, the look in his eyes. I walked
 
 </body>
 </html>
+
