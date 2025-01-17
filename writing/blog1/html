@@ -12,7 +12,7 @@
             line-height: 1.6;
             margin: 20px;
             color: #333;
-            background-color: #E8D6E2; /* Calming background color */
+            background-color: #dcb6c9; /* Calming background color */
         }
         img {
             max-width: 100%;
@@ -21,7 +21,7 @@
             width: 14cm; /* Set Liana's image width to 14 cm */
         }
         h1 {
-            color: #dcb6c9;
+            color: #000000;
             font-size: 2em;
         }
         p {
@@ -68,7 +68,7 @@
         </div>
     </div>
 
-    <p>I wind the car windows down, always. It is a small act, insignificant, though it feels like an act of defiance. The wind tangles my hair. Ah, sweet, sweet Summer! May this euphoria never wear of, the novelty of my new found ability to drive, anywhere and anytime I please.</p>
+    <p>I wind the car windows down, always. It is a small act, insignificant, though it feels like an act of defiance. The wind tangles my hair. I don't care. Ah, sweet, sweet Summer! May this euphoria never wear off, the new found ability to drive.</p>
 
 <p>Today, strawberries: $3 for two. A steal. The run, a return to my body. The library, long-overdue fashion magazines I read a few pages of. All the little tasks that, together, make a life. In the car, <i>Magnetising</i> plays: a song like velvet stretched thin over wire. I am someone else now: a French spy with a cigarette in her mouth, driving a stolen car. I am invincible.!</p>
 
