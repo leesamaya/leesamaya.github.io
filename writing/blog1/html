@@ -10,7 +10,7 @@
         body {
             font-family: 'Times New Roman', Times, serif; /* Font set to Times New Roman */
             line-height: 1.6;
-            margin: 20px;
+            margin: 30px;
             color: #333;
             background-color: #dcb6c9; /* Calming background color */
         }
@@ -25,8 +25,8 @@
             font-size: 2em;
         }
         p {
-            margin-bottom: 1em;
-            max-width: calc(100% - 5cm); /* Set max width for text, leaving 5 cm from the right */
+            margin-bottom: 10em;
+            max-width: calc(100% - 10cm); /* Set max width for text, leaving 5 cm from the right */
 
             <!DOCTYPE html>
 <html lang="en">
@@ -39,14 +39,7 @@
         a:hover {
             font-style: italic;
         }
-    </style>
-</head>
-<body>
-        
-    
-    </style>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> <!-- Google Font -->
-</head>
+  
 <body>
     <h1>𝒟𝒾𝒶𝓇𝓎⋆｡°✩Thursday January 16th</h1>
   
