@@ -21,34 +21,29 @@
             width: 14cm; /* Set Liana's image width to 14 cm */
         }
         h1 {
-            color: #000000;
+            color: #5f1466;
             font-size: 2em;
         }
         p {
             margin-bottom: 1em;
             max-width: calc(100% - 5cm); /* Set max width for text, leaving 5 cm from the right */
+
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Effect</title>
+    <style>
+        /* Style for the hyperlink */
+        a:hover {
+            font-style: italic;
         }
-        .audio-container {
-            position: fixed; /* Position the audio player */
-            right: 20px; /* Keep a margin from the right */
-            top: 70px; /* Adjust top position */
-            background: #add8e6; /* Light blue background for audio bubble */
-            padding: 10px; /* Padding */
-            border-radius: 5px; /* Rounded corners */
-            box-shadow: 0 0 10px rgba(0,0,0,0.2); /* Shadow */
-            display: flex; /* Flexbox for alignment */
-            align-items: center; /* Center vertically */
-            width: 200px; /* Set width for the bubble */
-        }
-        .audio-container img {
-            width: 70px; /* Increased width of cover art */
-            height: auto; /* Maintain aspect ratio */
-            margin-right: 10px; /* Space between image and audio */
-        }
-        .listen-text {
-            font-family: 'Dancing Script', cursive; /* Formal, girly cursive font */
-            margin: 0; /* Remove default margin */
-        }
+    </style>
+</head>
+<body>
+        
+    
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> <!-- Google Font -->
 </head>
@@ -59,20 +54,10 @@
      style="width:33%; margin-top:20px;">
 
 
-    <div class="audio-container">
-        <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/writing/liana/album%20art.jpg" alt="Song Cover Art">
-        <div>
-            <p class="listen-text">Listen to me! While you read.</p>
-            <audio controls autoplay>
-                <source src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/writing/liana/Vashti%20Bunyan-%20If%20I%20Were%20(480p%2C%20h264%2C%20youtube).mp4" type="audio/mp4">
-                Your browser does not support the audio element.
-            </audio>
-        </div>
-    </div>
 
-<p>I wind the car windows down, always. It is a small act, insignificant, though it feels like an act of defiance. The wind tangles my hair. I don't care. Ah, sweet, sweet Summer! May this euphoria never wear off, the newfound ability to drive.</p>
+<p>I wind the car windows down, always. It is a small act, insignificant, though it feels like an act of defiance. The wind tangles my hair, but I don't care. Ah, sweet, sweet Summer! May this euphoria never wear off, the novelty of my new found freedom to drive myself whereever I please. Just think of the all adventures ahead of me!</p>
 
-<p>Today, strawberries: $3 for two. A steal. The run, a return to my body. The library, long-overdue fashion magazines I read a few pages of. All the little tasks that, together, make a life. In the car, <a href="https://open.spotify.com/track/7nvD9cQj5wYGY44Mhh3My3" target="_blank"><i>Magnetising</i></a> plays: a song like velvet stretched thin over wire. I am someone else now: a French spy with a cigarette in her mouth, driving a stolen car. I am invincible.</p>
+<p>Today, strawberries: $3 for two. A steal. The gym, a return to my body. The library, long-overdue fashion magazines I only read a couple of pages of. All the little tasks that, together, make a life. In the car, <a href="https://open.spotify.com/track/7nvD9cQj5wYGY44Mhh3My3" target="_blank"><i>Magnetising</i></a> plays: a song like velvet stretched thin over wire. I am someone else now: a French spy with a cigarette in her mouth, driving a stolen car. I am invincible.</p>
 
 
 
