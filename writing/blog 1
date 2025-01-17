@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How To Ask a Boy Out: A Guide For The Ordinary Girl</title>
+    <style>
+        /* Background and Body Styles */
+        body {
+            background-color: #cacb8b; /* light green */
+            font-family: "Times New Roman", Times, serif;
+            font-size: 12pt; /* Updated font size */
+            color: #333;
+            margin: 10;
+            padding: 20px;
+            line-height: 1.6;
+            position: relative; /* Allows positioning of the audio player */
+        }
+
+        /* Title Styling */
+        h1 {
+            font-family: "comic sans";
+            font-size: 2em;
+            color: #C71585; /* dark hot pink */
+            text-align: center;
+            margin-top: 0;
+        }
+
+        /* Introduction Styling */
+        .intro {
+            margin-bottom: 20px; /* Space below the intro */
+            text-align: center;
+            max-width: 600px; /* Set width same as title */
+            margin-left: auto;
+            margin-right: auto; /* Center the intro */
+        }
+
+        /* Image Centering */
+        .image-container {
+            text-align: center; /* Center the image */
+            margin: 20px 0; /* Add some margin */
+        }
+
+        /* Step Headings Styling */
+        strong {
+            color: #C71585; /* dark hot pink */
+        }
+
+        /* Main Text Styling */
+        p, li {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 12pt; /* Updated font size */
+            margin: 0 0 10px 0; /* Space between paragraphs */
+            max-width: 85%; /* Limits the width to 85% of the container */
+            margin-left: auto; /* Center align the text */
+            margin-right: auto; /* Center align the text */
+        }
+
+        /* Link Styling */
+        a {
+            color: #0000EE;
+            text-decoration: underline;
+        }
+
+        /* Link Hover Styling */
+        a:hover {
+            font-style: italic;
+        }
+
+        /* List Item Styling */
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* Audio container styling */
+        .audio-container {
+            position: absolute; /* Position in the right corner */
+            top: 20px; /* Adjust vertical position */
+            right: 20px; /* Adjust horizontal position */
+            text-align: center; /* Center text inside */
+        }
+
+        /* Album cover image styling */
+        .audio-container img {
+            width: 80px; /* Size for album cover */
+            height: auto;
+            margin-bottom: 5px; /* Space below the image */
+            cursor: pointer; /* Change cursor to pointer */
+        }
+
+        /* Song title styling */
+        .song-title {
+            font-weight: bold;
+            margin: 5px 0; /* Margin for spacing */
+            font-size: 10pt; /* Adjust font size */
+            cursor: pointer; /* Change cursor to pointer */
+        }
+    </style>
+</head>
+<body>
+    <h1>How To Ask a Boy Out: A Guide For The Ordinary Girl</h1>
+
+    <div class="intro">
+        <p>You have identified a boy. He is ordinary, 
+            yet to you, he gleams. You hesitate, suspended in the pull
+            of wanting and waiting.
+            There are methods for this. They are straightforward 
+            and absurdly practical.</p>
+    </div>
+
+        <div class="image-container">
+        <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/writing/tutorial/river.jpg" alt="River Scene" width="500">
+    </div>
+
+   <div class="audio-container">
+    <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/writing/tutorial/album%20art.jpg" 
+         alt="Album Cover" 
+         onclick="toggleAudio()"> <!-- Updated album cover URL -->
+    <div class="song-title" onclick="toggleAudio()">Trois Gymnopedies (First Movement) - Gary Numan</div>
+    <audio id="audio" controls autoplay style="display: none;">
+        <source src="https://github.com/leesamaya/leesamaya.github.io/raw/main/writing/tutorial/Trois%20Gymnopedies%20(First%20Movement)%20%5B%20ezmp3.cc%20%5D.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</div>
+
+    <ol>
+        <li><strong>Locate Him</strong><br>
+       The boy exists somewhere near. Fix your gaze on him. He may not know yet he is the object of such focus.</li>
+
+        <li><strong>Observe</strong><br>
+       He moves, as boys do, without knowing he is seen. You look, and then you are caught. Do not flinch.
+            Resist the instinct to turn away. The world, in that moment, may shift ever so slightly in your favour.</li>
+
+        <li><strong>Accept The Odds</strong><br>
+        Know that most will not reciprocate. The gaze is rare and its meanings rarer still. It is not a failing. Do not linger over this.</li>
+
+        <li><strong>Approach</strong><br>
+            Walk up to him. Stand as if you belong where you are. Speak plainly:<br>
+
+        <i>Hello. My name is ______. I’m going to skip rocks by the river tonight. Do you want to come?</i><br>
+
+Say no more. You have placed the weight of decision onto his side.
+
+              <li><strong>Wait, But Not For Him</strong><br>
+        </p>If he agrees, let it happen as it will. If he declines, go to the river anyway. The rocks wait. The river is yours. You are no less for trying.
+
+The world does not care for longing, but it sometimes bends to those who move through it as if it were bendable. That you dared is enough.<p>
+            
+    </ol>
+
+        <script>
+        function toggleAudio() {
+            const audio = document.getElementById('audio');
+            if (audio.paused) {
+                audio.play();
+                document.querySelector('.song-title').innerText = 'Trois Gymnopedies (First Movement) - Gary Numan'; // Reset title text
+            } else {
+                audio.pause();
+                document.querySelector('.song-title').innerText = 'Play: Trois Gymnopedies (First Movement) - Gary Numan'; // Change text when paused
+            }
+        }
+       <script>
+        function toggleAudio() {
+            const audio = document.getElementById('audio');
+            if (audio.paused) {
+                audio.play();
+                document.querySelector('.song-title').innerText = 'Trois Gymnopedies (First Movement) - Gary Numan'; // Reset title text
+            } else {
+                audio.pause();
+                document.querySelector('.song-title').innerText = 'Play: Trois Gymnopedies (First Movement) - Gary Numan'; // Change text when paused
+            }
+        }
+    </script>
+
+    <p style="font-size: 13px; margin-top: 20px;">
+        <em>A Wednesday Before An Economics Exam in October, 2024, 2:11am.
+        <p>30.10.24</em>
+    </p>
+    <p>
+        <a href="https://leesamaya.github.io/" style="color: blue; text-decoration: none; font-size: 15px;" onmouseover="this.style.fontStyle='italic'" onmouseout="this.style.fontStyle='normal'">Back Home</a>
+    </p>
+    <div style="display: inline-flex; text-align: center; justify-content: center; align-items: center; line-height: 100%; padding: 4.4px; font-size: 14px; font-style: normal; object-fit: contain; font-family: cursive; color: rgb(255, 255, 255); background: linear-gradient(90deg, rgb(255, 196, 233), rgb(235, 80, 177)); text-shadow: rgb(235, 80, 177) 0px 0px 5px;">i love my surreal memory</div>
