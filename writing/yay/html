@@ -19,7 +19,16 @@
         .title {
             font-size: 20px;
             font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .image-container {
+            text-align: left;
             margin-bottom: 20px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
         }
         .poem {
             text-align: left;
@@ -42,6 +51,10 @@
 
     <div class="title">Yay</div>
 
+    <div class="image-container">
+        <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/writing/yay/yay%20image.jpg" alt="Yay Image">
+    </div>
+
     <div class="poem">
         <p>sometimes i shock myself</p>
         <p>worrying because</p>
@@ -53,11 +66,12 @@
     </div>
 
     <div class="context">
-        A Normal Day, Though There Was Something Very Subtle, Strange And New About It.
+        The Crack Of Dawn, Monday, 2.12.24.  
+        Prone on cold airport tiles, sleep abandoned after a missed flight.
     </div>
 
     <div class="link">
-        <a href="https://leesamaya.github.io/">Home</a>
+        <a href="https://leesamaya.github.io/">Wanna Go Home? Me Too</a>
     </div>
 
 </body>
