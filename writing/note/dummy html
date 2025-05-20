@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neat</title>
+  <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      line-height: 1.6;
+      margin: 20px;
+      color: #8b0000;
+      background-color: #cdb79e;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #4a4a4a;
+      font-size: 2em;
+    }
+
+    p {
+      margin-bottom: 1em;
+      max-width: calc(100% - 5cm);
+    }
+
+    .audio-container {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
+    .audio-container img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+
+    .listen-text {
+      margin: 0;
+      font-style: italic;
+    }
+
+    .main-img {
+      width: 14cm;
+    }
+  </style>
+</head>
+
+<body>
+
+  <img
+    class="main-img"
+    src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/writing/neat/neat%20pic.webp"
+    alt="neat pic"
+  />
+
+
+  <p>This page is for you to sit in silence.</p>
+
+  <a href="https://leesamaya.github.io/">Back to Home</a>
+</body>
+</html>
