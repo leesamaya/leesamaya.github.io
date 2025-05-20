@@ -48,15 +48,29 @@
     </style>
 </head>
 <body>
+
 <div style="position: absolute; top: 20px; right: 20px; text-align: center;">
-  <img src="/writing/yay/autumn sweater.jpeg" alt="Album cover" style="width: 150px; height: auto;">
+  <img id="albumCover" src="/writing/yay/autumn sweater.jpeg" alt="Album cover" style="width: 150px; height: auto; cursor: pointer;">
   <p style="margin: 5px 0 0 0; font-family: serif; font-size: 14px;">Autumn Sweater</p>
   <p style="margin: 0; font-family: serif; font-size: 12px;">Yo La Tengo</p>
-  <audio controls style="margin-top: 5px; width: 150px;">
+  <audio id="autumnAudio" autoplay style="display: none;">
     <source src="/writing/yay/Yo La Tengo - Autumn Sweater (Official Audio).mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
 </div>
+
+<script>
+  const albumCover = document.getElementById("albumCover");
+  const audio = document.getElementById("autumnAudio");
+
+  albumCover.addEventListener("click", () => {
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  });
+</script>
 
 
 
