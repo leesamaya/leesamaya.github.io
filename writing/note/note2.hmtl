@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neat</title>
+  <link rel="stylesheet" href="styles.css" />
 
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      line-height: 1.6;
+      margin: 20px;
+      color: #8b0000;
+      background-color: #cdb79e;
+    }
+
+
+    h1 {
+      color: #4a4a4a;
+      font-size: 2em;
+    }
+
+    p {
+      margin-bottom: 1em;
+      max-width: calc(100% - 5cm);
+    }
+
+    }
+
+    .main-img {
+      width: 14cm;
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+  <p>No you're not.</p>
+<p> </p>
+
+  <a href="https://leesamaya.github.io/">I have reflected on my sins and am now ready to go home</a>
+</body>
+</html>
