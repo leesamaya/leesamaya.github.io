@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,9 +10,8 @@
       padding: 0;
       color: white;
       font-family: "Times New Roman", serif;
-      height: 100vh;
+      min-height: 200vh;
       position: relative;
-      overflow: hidden;
     }
 
     img {
@@ -23,22 +21,50 @@
       top: 55%;
       left: 60%;
       transform: translate(-50%, -50%);
+    }
 
-       .bottom-link {
-      position: absolute;
+    .bottom-link {
+      position: fixed;
       bottom: 30px;
-      left: 50%;
-      transform: translateX(-50%);
+      left: 30px;
+      opacity: 0;
+      transition: opacity 1s ease;
+      pointer-events: none;
+    }
+
+    .bottom-link.visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    a.yay-link {
+      color: white;
+      text-decoration: none;
+    }
+    a.yay-link:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
+
   <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/writing/red/Screen%20Shot%202025-05-21%20at%2010.56.53%20am.png" alt="Screenshot">
-  
-<div class="bottom-link">
-    <a href="/writing/yay/yay.html" class="yay-link" style="color: white;">yay</a>
+
+  <div class="bottom-link" id="yayLink">
+    <a href="/writing/yay/yay.html" class="yay-link">yay</a>
   </div>
 
-</p>
+  <script>
+    // Show the "yay" link when user scrolls down at least 100px
+    window.addEventListener('scroll', function () {
+      const link = document.getElementById('yayLink');
+      if (window.scrollY > 100) {
+        link.classList.add('visible');
+      } else {
+        link.classList.remove('visible');
+      }
+    });
+  </script>
+
 </body>
 </html>
