@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Page</title>
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+      padding: 40px;
+      text-align: center;
+    }
+    img {
+      max-width: 90vw;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+<p>Bitch.</p>
+
+  <img src="https://raw.githubusercontent.com/leesamaya/leesamaya.github.io/main/writing/red/Screen%20Shot%202025-05-21%20at%2010.56.53%20am.png" alt="Screenshot">
+
+</body>
+</html>
