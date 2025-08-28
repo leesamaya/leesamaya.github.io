@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>book shelf</title>
+  <style>
+    body {
+      background-color: #0098cb; /*  bright blue */
+      color: white;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 30pt;
+      margin: 1cm;
+      line-height: 1.6;
+    }
+
+    ::selection {
+      background: white;
+      color: #cc0000;
+    }
+
+    a {
+      color: white;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: #ffe6e6;
+    }
+  </style>
+</head>
+<body>
+
+<p> hello </p>
+
+</body>
+
+
+
+
+  
+</html>
 
