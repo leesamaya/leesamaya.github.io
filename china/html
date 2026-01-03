@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>China — Film</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="slideshow">
+    <img id="slide" src="images/img1.jpg" alt="Film photo from China">
+  </div>
+
+  <div class="controls">
+    <button onclick="prevSlide()">←</button>
+    <button onclick="nextSlide()">→</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
