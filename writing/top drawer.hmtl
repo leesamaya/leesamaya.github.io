@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Writing</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background-color: #EEb8C3; /* warm soft pink */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      text-align: center;
+    }
+
+    .links a {
+      font-size: 30px;
+      color: #621D34;
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="links">
+    <a href="../writing/chasing%20things%3Aode%20to%20wanting/chasing%20things.html">
+      chasing things
+    </a>
+
+    <a href="../writing/edie/edie.html">
+      edie
+    </a>
+
+    <a href="../writing/liana/liana.html">
+      liana
+    </a>
+
+    <a href="../writing/note/note2.html">
+      note
+    </a>
+
+    <a href="../writing/summer/summer.html">
+      summer
+    </a>
+
+    <a href="../writing/lost%20bag%20poem/">
+      lost bag poem
+    </a>
+
+    <a href="../writing/neat/">
+      neat
+    </a>
+
+    <a href="../writing/tutorial/">
+      tutorial
+    </a>
+
+    <a href="../writing/yay/">
+      yay
+    </a>
+  </div>
+
+</body>
+</html>
 
